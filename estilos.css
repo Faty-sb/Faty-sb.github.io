@@ -1,0 +1,288 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: Quicksand;
+}
+header{
+    background-image: url(foto-portada.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+   
+
+}
+.containerr{
+    max-width: 1100px;
+    margin: 0 auto;
+   
+
+}
+.menu{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+.menu .logo{
+    font-weight: 700;
+    font-size: 18px;
+    color: blanchedalmond;
+}
+
+.menu .navbar ul{
+    list-style: none;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+}
+.menu .navbar ul li a:hover{
+    color: cornflowerblue;
+}
+
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 20px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-text{
+    text-align: left;
+    padding-top: 200px;
+}
+h1{
+    color: rgb(255, 254, 252);
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 100;
+    width: 1200px
+}
+
+.services{
+    background-image: url(pantalla.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 0px 100px 0px;
+    color: white;
+}
+h2{
+    font-size: 55px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+.txt-1{
+    font-size: 18px;
+    font-family: Quicksand;
+    padding: 0px 200px;
+    margin-bottom: 45px;
+}
+.group-services{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+h3{
+    font-size: 30px;padding-bottom: 25px;
+}
+p{
+    font-size: 20px;
+}
+h3:hover{
+    color: cornflowerblue;
+}
+body{
+    background-color: rgb(1, 3, 56);
+
+}
+
+h4{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
+h5{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+.caja{
+    display: flex;
+    justify-content: center;
+
+}
+div.galeria{
+    margin: 10px 25px;
+    box-shadow: 0px 4px 8px 0 white, 0 6px 20px 0 slategrey;
+    float: left;
+    width: 200px;
+    
+}
+.galeria img{
+    width: 100%;
+}
+div.galeria:hover{
+    border: 1px solid cornflowerblue;
+    transform: rotate(-3deg);
+}
+
+div.pie{
+    text-align: center;
+    color: white;
+}
+.containerr img{
+    margin: 10px 25px;
+    box-shadow: 0px 4px 8px 0 white, 0 6px 20px 0 slategrey;
+    width: 50%;
+    
+   
+   justify-content: space-between;
+   align-items: center;
+}
+
+.conte{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 3, 56);
+    padding-bottom: 80px;
+
+    
+}
+.contenedor{
+    width: 50%;
+    height: 200px;
+    display: flex;
+}
+.fotos img{
+    height: 400px;
+    padding-bottom: 50px;
+}
+.texto{
+    padding-left: 30px;
+    background-color: white;
+    height:350px ;
+   
+}
+.texto h2{
+    color: rgb(80, 80, 80);
+    
+}
+.texto p{
+    color: rgb(1, 3, 56);
+    font-size: 30px;
+    
+}
+h6{
+    color: rgb(80, 80, 80);
+    font-size: 15px;
+}
+
+.final{
+    background-image: url(foto-portada.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:800px){
+    body {
+        flex-direction: column;
+        display: flex;
+    }
+.caja{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text{
+    
+    width: 60%;
+}
+h2{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.txt-1{
+    font-size: 15px;
+    width: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.conte{
+    width: 100%;
+}
+.texto p{
+    font-size: 20px;
+}
+h6{
+    font-size: 10px;
+}
+.contenedor{
+    justify-content: baseline;
+}
+
+
+}
+
+
+
+
+
